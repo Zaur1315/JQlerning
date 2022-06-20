@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header"></div>
+        <div class="content">
+            <div class="phone" id="s22">
+                <h1 class="s22name">Samsung S22 Ultra</h1>
+                <div class="s22name" id="s22name">256 gb только телефон</div>
+                <div class="s22Price" id="s22Price"></div>
+                <div class="s22Dollar" id="s22Dollar"></div>
+                <div class="button">Заказать</div>
+
+                <img src="img/s22u-black.jpeg" alt="Samsung S22 Ultra " id="s22img">
+            </div>
+            <div class="color">
+                <div class="s22color s22black" data-img-path="img/s22u-black.jpeg"></div>
+                <div class="s22color s22red" data-img-path="img/s22u-red.jpeg"></div>
+                <div class="s22color s22green" data-img-path="img/s22u-green.jpeg"></div>
+                <div class="s22color s22white" data-img-path="img/s22ultra-white.jpg"></div>
+            </div>
+            <div class="radioBlock">
+                <div id="block1">
+
+                        <input type="radio" name="storge" class='rad' id="s256" value="2999" checked="checked">
+                        <label for="s256">256gb </label>
+                        <input type="radio" name="storge" class='rad' id="s512" value="3299">
+                        <label for="s512">512gb </label>
+                        <input type="radio" name="storge" class='rad' id="s1tb" value="3699">
+                        <label for="1tb">1tb </label>
+                </div>
+                <div id="block2">
+
+                        <input type="radio" name="acces" class='rad' id="without" value="0" checked="checked">
+                        <label for="without"> Только сам телефон </label>
+                        <input type="radio" name="acces" class='rad' id="with" value="29">
+                        <label for="with"> С защитным стеклом и чехлом </label>
+
+                </div>
+                <div id="block3">
+
+                        <input type="radio" name="kompl" class='rad' id="non"  value="0" checked="checked">
+                        <label for="charc"> С наушниками </label>
+                        <input type="radio" name="kompl" class='rad' id="charc" value="120">
+                        <label for="airpods"> С адаптором </label>
+                        <input type="radio" name="kompl" class='rad' id="airp" value="210">
+                        <label for="a&c"> адаптор + наушники </label>
+
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>

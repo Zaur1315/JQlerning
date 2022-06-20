@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 30px 0 30px 50px;
+}
+
+.s22black{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+.s22green{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(6, 75, 6);
+}
+.s22red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(116, 14, 14);
+}
+.s22white{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(122, 122, 122);
+}
+.color{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 270px;
+    justify-content: space-between;
+}
+#s22img{
+    width: 400px;
+}
+
+.radioBlock{
+    margin: 50px;
+    height: 200px;
+    width: 700px;
+    display: inline-table;
+}
+
+
+
+.button{
+    margin: 50px 100px;
+    width: 100px;
+    height: 50px;
+    background-color:rgb(159, 252, 255);
+    text-align: center;
+    line-height: 50px;
+}
